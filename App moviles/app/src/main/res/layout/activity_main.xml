@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="117dp"
+        android:layout_height="36dp"
+        android:layout_x="43dp"
+        android:layout_y="26dp"
+        android:gravity="center"
+        android:text="Ingrese ID:"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/txtJ_id"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="77dp"
+        android:enabled="true"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="87dp"
+        android:text="Busqueda Volley" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="21dp"
+        android:text="Busqueda Retrofill" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:layout_x="0dp"
+        android:layout_y="180dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="36dp"
+        android:layout_x="23dp"
+        android:layout_y="142dp"
+        android:gravity="center"
+        android:text="Resultado de la API"
+        android:textSize="20dp" />
+</AbsoluteLayout>
